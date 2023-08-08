@@ -15,6 +15,7 @@ function UploadFile({ uploadError, updateFileList }) {
   function deleteFile(item) {
     let temp = fileList.filter((f) => f !== item);
     setFileList(temp);
+    console.log("helllo test");
   }
 
   useEffect(() => {
