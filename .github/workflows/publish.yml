@@ -1,13 +1,14 @@
-name: "🚀 release"
+name: "🚀 push"
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+        - master
 
 jobs:
   release:
-    name: 🚀 release
-    runs-on: ubuntu-latest
+    name: 🚀 publish
+    runs-on: windows-latest
     steps:
       - name: 📚 checkout
         uses: actions/checkout@v2.1.1
