@@ -1,5 +1,11 @@
 {
   "name": "upload-file-input",
   "version": "0.3.0",
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5"
+  }
 }
