@@ -1,8 +1,7 @@
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import ImgPreview from "./ImgPreview";
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./style.css";
-import { React } from "react";
 
 function UploadFile({ uploadError, updateFileList }) {
   const [fileList, setFileList] = useState([]);

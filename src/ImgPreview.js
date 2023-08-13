@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import { React } from "react";
+import React, { useState, useEffect } from "react";
 
 const ImgPreview = ({ file }) => {
   const objectUrl = URL.createObjectURL(file);
