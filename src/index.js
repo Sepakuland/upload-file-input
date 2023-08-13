@@ -9,6 +9,7 @@ function UploadFile({ uploadError, updateFileList }) {
 
   function addFiles(file) {
     setFileList([...fileList, ...file]);
+    console.log("test");
     inputFile.current.value = "";
   }
 
@@ -92,6 +93,3 @@ function UploadFile({ uploadError, updateFileList }) {
 
 export default UploadFile;
 // module.exports = { UploadFile };
-
-
-
