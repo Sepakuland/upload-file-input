@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "build": "babel ./src -d ./dist"
+    "build": "babel ./src -d ./dist && cpy ./src/style.css ./dist"
   },
   "name": "upload-file-input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "files": [
     "dist/",
@@ -15,6 +15,7 @@
     "@babel/core": "^7.22.10",
     "@babel/preset-env": "^7.22.10",
     "@babel/preset-react": "^7.22.5",
+    "cpy-cli": "^5.0.0",
     "css-loader": "^6.8.1",
     "style-loader": "^3.3.3"
   }
