@@ -1,13 +1,13 @@
-import {useState,useEffect} from 'react'
+import { useState, useEffect } from "react";
+import { React } from "react";
 
+const ImgPreview = ({ file }) => {
+  const objectUrl = URL.createObjectURL(file);
+  return (
+    <>
+      <img src={objectUrl} />
+    </>
+  );
+};
 
-const ImgPreview = ({file}) => {
-    const objectUrl = URL.createObjectURL(file)
-  return(
-      <>
-        <img src={objectUrl}/>
-      </>
-  )
-}
-
-export default ImgPreview
+export default ImgPreview;
