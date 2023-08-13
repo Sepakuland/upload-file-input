@@ -1,7 +1,10 @@
 {
+  "scripts": {
+    "build": "babel ./src -d ./dist"
+  },
   "name": "upload-file-input",
   "version": "0.4.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "devDependencies": {
     "@babel/cli": "^7.22.10",
     "@babel/core": "^7.22.10",
