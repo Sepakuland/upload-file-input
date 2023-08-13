@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "build": "babel ./src -d ./dist/src && cpy ./src/style.css ./dist"
+    "build": "babel ./src -d ./dist && cpy ./src/style.css ./dist"
   },
   "name": "upload-file-input",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "main": "dist/index.js",
   "files": [
     "dist/",
