@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _DeleteOutline = _interopRequireDefault(require("@mui/icons-material/DeleteOutline"));
-var _ImgPreview = _interopRequireDefault(require("../ImgPreview"));
+var _ImgPreview = _interopRequireDefault(require("./ImgPreview"));
 var _react = require("react");
 require("./style.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

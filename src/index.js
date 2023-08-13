@@ -1,5 +1,5 @@
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-import ImgPreview from "../ImgPreview";
+import ImgPreview from "./ImgPreview";
 import { useEffect, useRef, useState } from "react";
 import "./style.css";
 
